@@ -1,0 +1,52 @@
+			INSTALLATION
+
+********** FRENCH VERSION *************
+
+Pré-requis :
+La version de PHP doit être supérieure ou égale à PHP 5.3.9.
+L’extension MySQL doit être activée.
+L’extension JSON doit être activée.
+L’extension Ctype doit être activée.
+Le paramètre date.timezone doit être défini dans le (php.ini).
+Télécharger et installer  le Composer (https://getcomposer.org/download/).
+Étapes :
+Copier le fichier sur le serveur avec la commande (git clone https://github/brunorafaeI/chatondl16.git).
+Pour l’installation de l’application il suffit de taper la commande (composer update) dans le fichier du projet sur le prompt. 
+Pour la configuration de la base de données vous pouvez changer les paramètres dans le fichier (app/config/parameters.yml).
+Pour l’installation de la base de données il suffit de taper les commandes :
+app/console doctrine:database:create
+app/console doctrine:schema:create
+app/console generate:doctrine:entities AcmeChatonDL16Bundle
+app/console doctrine:schema:update --force
+Astuce : Sur la plateforme Linux il suffit de donner la permission à ces dossiers :
+	   # sudo chmod 777 app/cache
+	   # sudo chmod 777 app/logs
+
+
+********** ENGLISH VERSION *************
+
+Prerequisites :
+PHP version must be greater than or equal to PHP 5.3.9.
+The MySQL extension must be enable.
+The JSON extension must be enable.
+The Ctype extension must be enable.
+The date.timezone parameter must be set in (php.ini).
+Download and install the Composer(https://getcomposer.org/download/).
+Steps :
+Copy the file to the server with the command (git clone https://github/brunorafaeI/chatondl16.git).
+To install the application simply type the command (composer update) in the project file on the prompt.
+For the configuration of the database you can change the parameters in the file (app/config/parameters.yml).
+To install the database simply type the commands :
+app/console doctrine:database:create
+app/console doctrine:schema:create
+app/console generate:doctrine:entities AcmeChatonDL16Bundle
+app/console doctrine:schema:update --force
+Trick : On the Linux platform it is enough to give permission to these files :
+	# sudo chmod 777 app/cache
+	# sudo chmod 777 app/logs
+
+
+
+
+
+
