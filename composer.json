@@ -1,8 +1,22 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "ChatonDL16 - Projet de déploiement",
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+     "authors": [
+        {
+            "name": "DA SILVA Bruno",
+            "email": "brunorafaelap@gmail.com",
+            "homepage": "https://github.com/brunorafaeI/chatondl16.git",
+            "role": "Développeur"
+        },
+        {
+            "name": "herniou kevin",
+            "email": "kevin.herniou@gmail.com",
+            "homepage": "https://github.com/brunorafaeI/chatondl16.git",
+            "role": "Développeur"
+        }
+    ],
+    "description": "C'est un projet de déploiement",
     "autoload": {
         "psr-4": { "": "src/" },
         "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
