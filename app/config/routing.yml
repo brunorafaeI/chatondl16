@@ -1,0 +1,4 @@
+acme_chaton_dl16:
+    resource: "@AcmeChatonDL16Bundle/Controller/"
+    type:     annotation
+    prefix:   /
